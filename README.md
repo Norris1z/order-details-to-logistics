@@ -23,6 +23,8 @@ message is returned too.
 
 `app/tests/Feature/Console` - Tests for the console application
 
+`app/tests/Helpers` - Helper methods for faking http requests
+
 The `CSVOrdersExportService::class` uses `League\Csv\Writer` to write the order data to csv.
 
 Rename `.env.example` to `.env`
