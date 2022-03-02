@@ -25,6 +25,8 @@ message is returned too.
 
 The `CSVOrdersExportService::class` uses `League\Csv\Writer` to write the order data to csv.
 
+Rename `.env.example` to `.env`
+
 Use `./vendor/bin/sail up -d` to start the laravel sail docker services
 
 Run `./vendor/bin/sail artisan logistics:send` to test command.
